@@ -1,4 +1,4 @@
-# boxofficeApi
+2²# boxofficeApi
 boxofficeApi call
 Jquery 박스오피스 불러오기
 
@@ -69,3 +69,4 @@ JSON 데이터를 직접 보면 된다. 이건 크롬에서 URL로 직접 JSON �
  
 
 {"이름" : 값} 형태의 데이터는 movieInfoResult.movieInfo.openDt 처럼 .을 이용하면서 접근한다. 배열[] 안에 있는 데이터는 인덱스 번호로 접근해 준다. 예를 들어 김창주라는 값을 얻기 위해 peopleNm에 접근하려면 movieInfoResult.movieInfo.directors[0].peopleNm로 접근한다
+  
