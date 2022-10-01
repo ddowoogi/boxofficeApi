@@ -43,7 +43,6 @@ JavaScript
             });//ready
         </script>
 이제 ready function 사이에 클릭 이벤트 발생 시 기능을 구현하는 코드를 추가해주도록 한다. 해당 API로 가져올 수 있는 정보는 무지 많지만 개봉일, 감독, 주연 세 항목만 가져오도록 한다. 주연은 3명까지만 출력한다.
-
 JavaScript
 $("#boxoffice").on("click",".movie", function(){
                     let d = $(this);
